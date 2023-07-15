@@ -1,0 +1,115 @@
+html {
+    font-family: Epilogue;
+}
+
+h1, h2 {
+    font-weight: inherit;
+}
+
+.container {
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px;
+}
+
+.colour-container {
+    display: inline-grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    width: 100%;
+}
+
+.colour {
+    text-align: center;
+    line-height: 100%;
+}
+
+.slate-grey {
+    background-color: #718F94;
+    color: white;
+}
+
+.ultra-violet {
+    background-color: #545775;
+    color: white;
+}
+
+.dark-purple {
+    background-color: #1F1A38;
+    color: white;
+}
+
+.white-smoke {
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.puce {
+    background-color: #c1839f;
+    color: white;
+}
+
+.font-grid {
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.font {
+    padding-bottom: 10px;
+}
+
+.oswald {
+    font-family: Oswald;
+    font-weight: 300;
+}
+
+.oswald h1, h2 {
+    font-weight: 400;
+}
+
+.quattrocento {
+    font-family: Quattrocento;
+}
+
+.oswald-bold {
+    font-weight: 600;
+}
+
+/* .oswald-bold h1, h2 {
+    font-weight: 600;
+} */
+
+.quattrocento-bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* .element-container {
+    font-weight: inherit;   
+} */
+
+.element-grid {
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr;
+    width: 25%;
+    margin-left: 20px;
+}
+
+.element {
+    margin: 0px;
+}
+
+.caption {
+    font-size: 12px;
+}
